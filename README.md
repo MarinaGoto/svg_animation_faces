@@ -15,4 +15,5 @@ My SVG Introduction / Inspiration Presentation: https://slides.com/marinagotovki
 
 
 Inspired by amazing Sarah Drasner: https://www.youtube.com/watch?v=ADXX4fmWHbo and the LearnWebCode tutorial - https://www.youtube.com/watch?v=IM8eTD01UE8. Strongly recommend checking them out!
- 
+
+Enjoy! SVG is fun!!
