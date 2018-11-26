@@ -1,0 +1,88 @@
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.blue-lenses .lenses-color{
+    fill: #00DFDB;
+}
+
+.sad .mouth{
+    transform: rotate(180deg);
+    transform-origin: 636px 654px;
+    stroke-width: 10px;
+}
+
+@keyframes MoveEyes {
+    20%{
+        transform: translate(-18px,-20px);
+    }
+    40%{
+        transform: translate(0, 0);
+    }
+    60%{
+        transform: translate(10px, -10px);
+    }
+}
+
+.move-around .inner_eye_ada{
+    animation: MoveEyes 8s infinite;
+}
+
+@keyframes MoveFace {
+    20%{
+        transform: rotateY(10deg) rotateX(10deg);
+    }
+    40%{
+        transform: rotateY(25deg) rotateX(10deg);
+    }
+    60%{
+        transform: rotateY(-10deg)  rotateX(-10deg);
+    }
+    85%{
+        transform: rotateY(-10deg) rotateX(-16deg);
+    }
+}
+
+.move-around .ada{
+    animation: MoveFace 8s infinite;
+}
+
+.ada{
+    perspective: 1000px;
+}
+
+.animate .letters{
+    fill: black;
+    stroke:black;
+    stroke-width:2px;
+    stroke-dasharray: 200;
+    animation: lettersAnimation 3s cubic-bezier(0,0.23,1,.1);
+}
+
+@keyframes lettersAnimation{
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dasharray: 100;
+    }
+    30%{
+        opacity: 10;
+        fill: none;
+        stroke-dasharray: 200;
+    }
+    80%{
+        fill: rgba(255,255,255,0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255,255,255,0);
+        stroke-dasharray: 0;
+    }
+}
