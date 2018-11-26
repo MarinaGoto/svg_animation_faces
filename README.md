@@ -5,6 +5,7 @@ It has never been more simple. Yet having that skill will allow you to take your
 
 
 Find my SVG Animation course on: https://diggit.no/ 
+
 Steps to get to the course on Diggit: 1.Login 2.Go to Catalog 3.Select "Women in Tech. SVG Workshop"
 
 
